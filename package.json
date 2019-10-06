@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Initialize typescript configuration information",
   "main": "src/index.js",
+  "bin": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
   },
@@ -14,5 +15,13 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^7.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qianlanse/tsconfig.json"
+  },
+  "bugs": {
+    "url": "https://github.com/qianlanse/tsconfig.json/issues"
+  },
+  "homepage": "https://github.com/qianlanse/tsconfig.json#readme"
 }
